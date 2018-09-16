@@ -9,6 +9,7 @@
 \usepackage{framed}
 \usepackage{color}
 \usepackage{multicol}
+\usepackage{gensymb}
 %\usepackage{yhmath}
 % adjust the margins using the geometry package
 \usepackage[left=0.75in, right=0.75in, top=0.75in, bottom=0.75in]{geometry}
@@ -81,14 +82,14 @@
 
 
 
-\rhead{Physics 1}
+\rhead{AP Physics}
 \lhead{Matthew Stringer} % your name
 \lfoot{}
-\cfoot{Physics 1 Notes}  % change to the corresponding number
+\cfoot{AP Physics Notes}  % change to the corresponding number
 \rfoot{\thepage}
 
 \setlength{\headheight}{15pt}
-\title{Physics 1 Notes} % change to the corresponding number
+\title{Physics Notes} % change to the corresponding number
 \date{}
 \author{Matthew Stringer} % your name and ID number
 
@@ -96,7 +97,239 @@
 \allowdisplaybreaks
 \begin{document}
 \maketitle
-\tableofcontents
 \newpage
+\tableofcontents
+
+%\newpage
+%\part{AP Physics 1}
+
+\newpage
+\part{AP Physics C}
+
+\section{Kinematics}
+\subsection{Describing Motion 1}
+
+\subsubsection{Average Speed}
+\begin{itemize}
+	\item Average speed is the distance traveled over change in time
+	\item It is a scaler
+	\item Measured in meters/second.
+	\item Magnitude of Velocity Vector
+\end{itemize}
+
+\subsubsection{Average Velocity}
+\begin{itemize}
+	\item Average velocity is a vector.
+	\item Measured in meters/second.
+\end{itemize}
+\begin{equation*}
+v_{avg} = \frac{\delta x}{\delta t} = \frac{x_f - x_i}{t_f - t_i}
+\end{equation*}
+
+\subsubsection{Average Velocity}
+\begin{itemize}
+	\item Rate that velocity changes
+	\item Is a vector
+	\item Units are meters/second/second
+\end{itemize}
+\begin{equation*}
+a = \frac{\delta v}{\delta t} = \frac{dv}{dt}
+\end{equation*}
+
+\subsubsection{Displacement}
+The displacement from $t_0$ to $t_1$ of a position function $x(t)$ with velocity function $v(t)$ is
+\begin{equation*} 
+\int_{t_0}^{t_1} v(t)dt
+\end{equation*} 
+
+\newpage
+\subsection{Describing Motion 2}
+
+\subsubsection{Kinematic Equations}
+\begin{center}
+\textbf{Variables}\\
+\begin{tabular}{|c|c|}
+\hline 
+$v_0$ & Initial velocity \\
+$v$ & Final velocity \\
+$\delta x$ & Displacement \\
+$a$ & Acceleration \\
+$t$ & Time \\
+\hline
+\end{tabular}
+\end{center}
+\begin{itemize}
+	\item $v = v_0 + at$
+	\item $x = x_0 + v_0 t + \frac12 at^2$
+	\item $v^2 = v_0^2 + 2a\delta x$
+\end{itemize}
+
+\subsubsection{Acceleration Due to Gravity}
+\begin{itemize}
+	\item Near the surface of Earth, objects accelerate at a rate of $9.8 \frac m{s^2}$
+	\item This is acceleration due to gravity ($g$)
+	\item This can be approximated to $10 \frac m{s^2}$
+	\item As you move from Earth, acceleration decreases.
+\end{itemize}
+
+\subsubsection{Objects Falling From Rest}
+\begin{itemize}
+	\item Objects starting from rest have $v_0 = 0$
+	\item Typically down is the positive direction
+	\item Acceleration is $+g$.
+\end{itemize}
+
+\subsubsection{Objects Launched Upward}
+\begin{itemize}
+	\item Must examine the motion of object going up and down.
+	\item Since object is going up, that is the positive direction.
+	\item Acceleration is $-g$.
+	\item At the highest point, $v = 0$.
+\end{itemize}
+
+\newpage
+\subsection{Projectile Motion}
+A \textbf{projectile} is an object that is acted upon only gravity.
+
+\subsubsection{Independence of Motion}
+\begin{itemize}
+	\item Projectiles launched at an angle have motion in 2 dimensions.
+	\begin{itemize}
+		\item Vertical - acceleration is gravity
+		\item Horizontal - 0 acceleration
+	\end{itemize}
+	\item Vertical and Horizontal motion are treated separately
+\end{itemize}
+
+\begin{center}
+\fbox{\begin{minipage}{30em}
+\textbf{Note:} An object will travel the maximum horizontal distance with a launch angle of $45 \degree$
+\end{minipage}}
+\end{center}
+
+\subsubsection{Steps for any Projectile Motion Problem}
+\begin{enumerate}
+	\item First, know that 
+	\begin{equation*}
+	a = 
+	\begin{bmatrix}
+	0 \\ -g
+	\end{bmatrix}
+	\end{equation*}
+	\item Then find your $v_0$ as a vector 
+	\item Find your $x_0$ as a vector
+	\item Substitute your vectors into the following formula
+	\begin{equation*}
+		x(t) = -\frac12 at^2 + v_0 t + x_0
+	\end{equation*}
+\end{enumerate}
+
+\subsubsection{Graphing Projectile Motion}
+In order to graph a path, solve for $y = f(x)$. Do this by solving for $t$ in relation to $x$ and 
+then substitute into the y component. \\
+For example: 
+\begin{align*}
+x = f(t) \\
+y = g(t) \\
+\text{Find } y = h(x) \\
+t = f^{-1}(x) \\
+y = g(f^{-1}(x)) = h(x) \\
+\text{so } h(x) = g(f^{-1}(x))
+\end{align*}
+
+\subsection{Circular And Relative Motion}
+\subsubsection{Converting Linear to Angular Velocity} \mbox{}\\
+If we have an object moving counter clockwise around a point, let $\omega = \frac{d \theta}{dt}$. If
+we know that the object has velocity $v$ and position $s$, we know that $s=r\theta$ where $r$ is the
+radius of the circular path. By taking the derivative of both sides, $\dot{s} = r \dot{\theta}$. 
+Now we can substitute to find the angular velocity.
+\begin{equation*}
+\dot{s} = r \omega
+\end{equation*}
+
+\section{Dynamics}
+
+\subsection{Newton's First Law and Free Body diagrams}
+\paragraph{Newton's First Law}
+\begin{center}
+\fbox{
+	\begin{minipage}{30em}
+	An object at rest will remain at rest, and an object in motion will remain in motion, at constant
+	velocity and in a straight line, unless acted upon by a net force.
+	\end{minipage}
+}
+\end{center}
+
+\subsubsection{Force}
+\begin{itemize}
+	\item A force is a push or pull on an object.
+	\item Units of force are in Newtons (N).
+	\item A newton is roughly the weight of an apple
+\end{itemize}
+\begin{equation*}
+1 N = 1 \frac{kg * m}{s^2}
+\end{equation*}
+\paragraph{Contract Force} \mbox{} \\
+A force that arises that from direct contact between objects.
+\begin{itemize}
+	\item Tension
+	\item Applied Force
+	\item Friction
+\end{itemize}
+\paragraph{Field Force}\mbox{} \\
+Forces that act at a distance.
+\begin{itemize}
+	\item Gravity
+	\item Electrical
+	\item Magnetic
+\end{itemize}
+
+\subsubsection{Net Force}
+A net force is the vector sum of all the forces acting on an object.
+\begin{equation*}
+F_{net} = \sum F
+\end{equation*}
+
+\subsubsection{Equilibrium}
+\begin{itemize}
+	\item Static Equilibrium
+	\begin{itemize}
+		\item Net force is 0
+		\item Net torque is 0
+		\item Object is at rest
+	\end{itemize}
+	\item Mechanical Equilibrium
+	\begin{itemize}
+		\item Net force is 0
+		\item Net torque is 0
+	\end{itemize}
+	\item Translational Equilibrium
+	\begin{itemize}
+		\item Net force is 0
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{Free Body Diagram}
+A Free Body Diagram (FBD) is a diagram that maps all of the forces that are applied to a single object.
+
+\subsection{Newton's 2nd and 3rd Laws of Motion}
+
+\subsubsection{Newton's 2nd Law of Motion}
+\begin{itemize}
+	\item The acceleration of an object is in the direction of and directly proportional to the the
+	net force applied, and inversely proportional to the object's mass.
+	\item Valid only in \textit{inertial reference frames}.
+\end{itemize}
+\begin{equation*}
+F_{net} = \sum F = ma
+\end{equation*}
+
+\subsubsection{Mass vs. Weight}
+\begin{itemize}
+	\item Mass is the amount of stuff that something is made up of (independent of gravity)
+	\item Weight is the force of gravity on an object. (dependent on gravity)
+\end{itemize}
+
+\textbf{LEFT OFF ON EXAMPLE X: BANKED CURVES (23:00)}
 
 \end{document}
