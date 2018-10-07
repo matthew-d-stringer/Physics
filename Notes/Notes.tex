@@ -411,7 +411,68 @@ Two objects connected by a light string over a massless pulley
 \begin{align*}
 F_{y} = m_1 g - m_2 g = (m_1 + m_2)a \\
 (m_1 - m_2)g = (m_1 + m_2)a \\
-a = \frac{(m_1 - m_2)}{(m_1 + m_2)}
+a = g \frac{(m_1 - m_2)}{(m_1 + m_2)}
+\end{align*}
+
+\section{Work, Energy, and Power}
+
+\subsection{Work}
+
+\subsubsection{What is Work}
+\begin{itemize}
+	\item Work is the process of moving an object by applying a force
+	\item The object must move
+	\item The force must cause the movement
+	\item Work is measured in Joules
+\end{itemize}
+\begin{equation*}
+W = F \cdot \Delta x
+\end{equation*}
+
+\subsubsection{Non-Constant Forces}
+\begin{itemize}
+	\item Work done is the area under the force vs. displacement graph.
+\end{itemize}
+\begin{equation*}
+W = \int_{x_i}^{x_f} F(x)dx
+\end{equation*}
+
+\subsubsection{Hook's Law}
+\begin{itemize}
+	\item The more you stretch or compress a spring, the greater the force of the spring.
+	\item The spring's force is opposite the direction of its displacement from equilibrium.
+	\item This is modeled as a linear relationship.
+\end{itemize}
+\begin{equation*}
+F_s = -k x
+\end{equation*}
+
+\subsubsection{Determining the Spring Constant}
+\begin{itemize}
+	\item Graph Force vs Displacement for the Spring
+	\item The slope of this graph is the Spring Constant
+\end{itemize}
+\begin{equation*}
+k = \frac{\Delta F}{\Delta x}
+\end{equation*}
+
+\subsubsection{Work in Multiple Dimensions}
+\begin{align*}
+W = \int dW \\
+W = \int_{r_1}^{r_2} F \cdot dr 
+\end{align*}
+
+\subsubsection{Work-Energy Theorem}
+\begin{align*}
+W = \int_{x_i}^{x_f} F(x) dx \\
+F = ma = m \frac{dv}{dt} \qquad v = \frac{dx}{dt} = vdt \\
+W = \int m \frac{dv}{dt} v dt \\
+W = \int_{v_i}^{v_f} m v dv  \\
+{\bf W = m \int_{v_i}^{v_f} v dv} \\
+= m \left. \frac{v^2}{2} \right|_{v_i}^{v_f} \\
+= m (\frac{v_f^2 - v_i^2}{2}) \\
+K = \frac12 mv^2 \quad \text{$K$ is kinetic energy} \\
+W = K_f - K_i = \Delta K
 \end{align*}
 
 \end{document}
