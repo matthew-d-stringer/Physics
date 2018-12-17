@@ -1,0 +1,201 @@
+\documentclass[../Notes.tex]{subfiles}
+
+% !TEX root = ../Notes.tex
+
+\begin{document}
+
+\section{Work, Energy, and Power}
+
+\subsection{Work}
+
+\subsubsection{What is Work}
+\begin{itemize}
+	\item Work is the process of moving an object by applying a force
+	\item The object must move
+	\item The force must cause the movement
+	\item Work is measured in Joules
+\end{itemize}
+\begin{equation*}
+W = F \cdot \Delta x = F \Delta x \cos \theta 
+\end{equation*}
+
+\subsubsection{Non-Constant Forces}
+\begin{itemize}
+	\item Work done is the area under the force vs. displacement graph.
+\end{itemize}
+\begin{equation*}
+W = \int_{x_i}^{x_f} F(x)dx
+\end{equation*}
+
+\subsubsection{Hook's Law}
+\begin{itemize}
+	\item The more you stretch or compress a spring, the greater the force of the spring.
+	\item The spring's force is opposite the direction of its displacement from equilibrium.
+	\item This is modeled as a linear relationship.
+\end{itemize}
+\begin{equation*}
+F_s = -k x
+\end{equation*}
+
+\subsubsection{Determining the Spring Constant}
+\begin{itemize}
+	\item Graph Force vs Displacement for the Spring
+	\item The slope of this graph is the Spring Constant
+\end{itemize}
+\begin{equation*}
+k = \frac{\Delta F}{\Delta x}
+\end{equation*}
+
+\subsubsection{Work in Multiple Dimensions}
+\begin{align*}
+W = \int dW \\
+W = \int_{r_1}^{r_2} F \cdot dr 
+\end{align*}
+
+\subsubsection{Work-Energy Theorem}
+\begin{align*}
+W = \int_{x_i}^{x_f} F(x) dx \\
+F = ma = m \frac{dv}{dt} \qquad v = \frac{dx}{dt} \quad dx = vdt \\
+W = \int m \frac{dv}{dt} v \; dt \\
+W = \int_{v_i}^{v_f} m v \; dv  \\
+{\bf W = m \int_{v_i}^{v_f} v \; dv} \\
+= m \left. \frac{v^2}{2} \right|_{v_i}^{v_f} \\
+= m (\frac{v_f^2 - v_i^2}{2}) \\
+K = \frac12 mv^2 \quad \text{$K$ is kinetic energy} \\
+W = K_f - K_i = \Delta K
+\end{align*}
+Energy Formula:
+\begin{equation*}
+	{\bf K = \frac{1}{2} mv^2}
+\end{equation*}
+
+\subsection{Energy and Conservative Forces}
+
+\subsubsection{What is Energy?}
+\begin{itemize}
+	\item Energy is the ability to do work
+	\item in other words, Energy is the ability to move an object
+\end{itemize}
+
+\subsubsection{Kinetic Energy}
+\begin{itemize}
+	\item Kinetic Energy is energy of motion.
+	\begin{itemize}
+		\item The ability or capacity of moving object move another object.
+	\end{itemize}
+\end{itemize}
+\begin{equation*}
+	K = \frac12 mv^2
+\end{equation*}
+
+\subsubsection{Potential Energy}
+\begin{itemize}
+	\item Potential Energy (U) is energy an object possesses due to its position or state of being.
+	\item A single object can only have kinetic energy, because potential energy requires an 
+		interaction between objects.
+\end{itemize}
+
+\subsubsection{Internal Energy}
+\begin{itemize}
+	\item The internal energy of a system includes the kinetic energy and potential energy.
+	\item By changing a system's internal structure, you can change its internal energy.
+\end{itemize}
+
+\subsubsection{Gravitational Potential Energy ($U_g$)}
+\begin{equation*}
+	U_g = mg \Delta h
+\end{equation*}
+
+\subsubsection{Conservative Forces}
+\begin{itemize}
+	\item A force in which the work done on an object is independent of the path taken
+	\item A force in which the work done moving along a closed path is zero
+	\item A force in which the work done is directly related to the change in potential energy
+	\begin{equation*}
+		W = - \Delta U
+	\end{equation*}
+\end{itemize}
+Conservative Forces
+\begin{itemize}
+	\item Gravity
+	\item Elastic Forces
+	\item Coulumbic
+\end{itemize}
+Non-Conservative Forces
+\begin{itemize}
+	\item Friction
+	\item Drag
+	\item Air Resistance
+\end{itemize}
+
+\subsubsection{Work Done by Conservative Forces}
+\begin{align*}
+	W = -\Delta U \implies 
+	\Delta U = -W \\
+	\Delta U = - \int_{r_i}^{r_f} F \cdot dr
+\end{align*}
+
+\subsubsection{Newton's Law of Universal Gravitation}
+\begin{equation*}
+	F_g = \frac{-G m_1 m_2}{r^2} {\hat r}
+\end{equation*}
+
+\subsubsection{Gravitational Potential Energy}
+\begin{align*}
+	U_g &= - \int_{\infty}^{r} F_g \cdot dr \\
+	U_g &= G m_1 m_2 \int_{\infty}^{r} r^{-2} dr \\
+	U_g &= G m_1 m_2 \left[ - r^{-1} \right]_{\infty}^{r} \\
+	U_g &= G m_1 m_2 \left( - r^{-1} - 0 \right) \\
+	U_g &= -\frac{G m_1 m_2}{r} 
+\end{align*}
+
+\subsubsection{Elastic Potential Energy}
+\begin{align*}
+	U_s &= - \int_{0}^{x} F_s \cdot dx \\
+	U_s &= - \int_{0}^{x} -kx dx \\
+	U_s &= k \left[ \frac{x^2}2 \right]_0^x \\
+	U_s &= \frac{kx^2}{2}
+\end{align*}
+
+\subsubsection{Force from Potential Energy}
+\begin{align*}
+	dU = -dW_f &= - F \cdot dl \\
+	&= -F \cos \theta dl \\
+	&= -F_l dl \\
+	F_l = -\frac{dU}{dl}
+\end{align*}
+Where $F_l$ is the force in the direction of potential energy
+
+\subsubsection{Gravitational Force from the Gravitational Potential Energy}
+\begin{align*}
+	F_r &= -\frac{dU}{dr} \\
+	F_r &= \frac{d}{dr} \frac{G m_1 m_2}{r} \\
+	F_r &= G m_1 m_2 \frac{d}{dr} r^{-1} \\
+	F_r &= G m_1 m_2 \frac{-1}{r^2} \\
+	F_r &= - \frac{G m_1 m_2}{r^2} \\
+	F &= - \frac{G m_1 m_2}{r^2} \hat r
+\end{align*}
+
+\subsection{Conservation of Energy}
+
+\subsubsection{Conservation of Mechanical Energy}
+\begin{align*}
+	W_f = \Delta K \quad W_f = -\Delta U \\
+	\Delta K = - \Delta U \\
+	\Delta K + \Delta U = 0
+\end{align*}
+
+\subsubsection{Non-Conservative Forces}
+\begin{itemize}
+    \item change total mechanical energy of a system 
+    \item Work done is typically converted to internal (thermal) energy.
+\end{itemize}
+\begin{align*}
+    E_{TOTAL} = K + U + W_{NC} \\ 
+    E_{MECHANICAL} = K + U
+\end{align*}
+Where $W_{NC}$ is work done by non-conservative forces
+
+\subsection{Power}
+
+\end{document}
