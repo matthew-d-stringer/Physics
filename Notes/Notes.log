@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.20)  16 DEC 2018 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.20)  17 DEC 2018 19:24
 entering extended mode
 **"f:/My Documents/Matthew/2018-2019/Physics/Notes/Notes.tex"
 ("f:/My Documents/Matthew/2018-2019/Physics/Notes/Notes.tex"
@@ -873,14 +873,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 05499E0F561B6D6C5D8E2D5AF52BF88B;5053.
+(rerunfilecheck)             Checksum: 85DFA57E897B06D0FE0CDF5D8BD0621E;5204.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 34.
  ) 
 Here is how much of TeX's memory you used:
- 18223 strings out of 492973
- 343561 string characters out of 3135935
+ 18227 strings out of 492973
+ 343641 string characters out of 3135935
  418258 words of memory out of 3000000
- 21649 multiletter control sequences out of 15000+200000
+ 21651 multiletter control sequences out of 15000+200000
  15479 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,56p,468b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -897,9 +897,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Notes.pdf (15 pages, 222252 bytes).
+Output written on Notes.pdf (15 pages, 224363 bytes).
 PDF statistics:
- 484 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 525 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 541 words of extra memory for PDF output out of 10000 (max. 10000000)
 
