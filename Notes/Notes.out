@@ -1,5 +1,71 @@
-\BOOKMARK [1][-]{section.1}{Momentum And Impulse}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Definition of Momentum}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Impulse}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Relationship between Force and p}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.4}{Impulse-Momentum Theorem}{section.1}% 5
+\BOOKMARK [1][-]{section.1}{Kinematics}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Describing Motion 1}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Average Speed}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Average Velocity}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Average Velocity}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.4}{Displacement}{subsection.1.1}% 6
+\BOOKMARK [2][-]{subsection.1.2}{Describing Motion 2}{section.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Kinematic Equations}{subsection.1.2}% 8
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Acceleration Due to Gravity}{subsection.1.2}% 9
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Objects Falling From Rest}{subsection.1.2}% 10
+\BOOKMARK [3][-]{subsubsection.1.2.4}{Objects Launched Upward}{subsection.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.3}{Projectile Motion}{section.1}% 12
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Independence of Motion}{subsection.1.3}% 13
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Steps for any Projectile Motion Problem}{subsection.1.3}% 14
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Graphing Projectile Motion}{subsection.1.3}% 15
+\BOOKMARK [2][-]{subsection.1.4}{Circular And Relative Motion}{section.1}% 16
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Converting Linear to Angular Velocity}{subsection.1.4}% 17
+\BOOKMARK [1][-]{section.2}{Dynamics}{}% 18
+\BOOKMARK [2][-]{subsection.2.1}{Newton's First Law and Free Body diagrams}{section.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Force}{subsection.2.1}% 20
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Net Force}{subsection.2.1}% 21
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Equilibrium}{subsection.2.1}% 22
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Free Body Diagram}{subsection.2.1}% 23
+\BOOKMARK [2][-]{subsection.2.2}{Newton's 2nd and 3rd Laws of Motion}{section.2}% 24
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Newton's 2nd Law of Motion}{subsection.2.2}% 25
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Mass vs. Weight}{subsection.2.2}% 26
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Newton's 3rd Law of Motion}{subsection.2.2}% 27
+\BOOKMARK [2][-]{subsection.2.3}{Friction}{section.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Coefficient of Friction}{subsection.2.3}% 29
+\BOOKMARK [2][-]{subsection.2.4}{Retarding or Drag Forces}{section.2}% 30
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Retarding Forces}{subsection.2.4}% 31
+\BOOKMARK [3][-]{subsubsection.2.4.2}{The Skydiver}{subsection.2.4}% 32
+\BOOKMARK [2][-]{subsection.2.5}{Ramps and Inclines}{section.2}% 33
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Drawing FBD for Ramps}{subsection.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.6}{Atwood Machine}{section.2}% 35
+\BOOKMARK [3][-]{subsubsection.2.6.1}{What is an Atwood Machine}{subsection.2.6}% 36
+\BOOKMARK [3][-]{subsubsection.2.6.2}{Properties of Atwood Machines}{subsection.2.6}% 37
+\BOOKMARK [3][-]{subsubsection.2.6.3}{Setup for Atwood Machines}{subsection.2.6}% 38
+\BOOKMARK [3][-]{subsubsection.2.6.4}{Solution}{subsection.2.6}% 39
+\BOOKMARK [1][-]{section.3}{Work, Energy, and Power}{}% 40
+\BOOKMARK [2][-]{subsection.3.1}{Work}{section.3}% 41
+\BOOKMARK [3][-]{subsubsection.3.1.1}{What is Work}{subsection.3.1}% 42
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Non-Constant Forces}{subsection.3.1}% 43
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Hook's Law}{subsection.3.1}% 44
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Determining the Spring Constant}{subsection.3.1}% 45
+\BOOKMARK [3][-]{subsubsection.3.1.5}{Work in Multiple Dimensions}{subsection.3.1}% 46
+\BOOKMARK [3][-]{subsubsection.3.1.6}{Work-Energy Theorem}{subsection.3.1}% 47
+\BOOKMARK [2][-]{subsection.3.2}{Energy and Conservative Forces}{section.3}% 48
+\BOOKMARK [3][-]{subsubsection.3.2.1}{What is Energy?}{subsection.3.2}% 49
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Kinetic Energy}{subsection.3.2}% 50
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Potential Energy}{subsection.3.2}% 51
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Internal Energy}{subsection.3.2}% 52
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Gravitational Potential Energy \(Ug\)}{subsection.3.2}% 53
+\BOOKMARK [3][-]{subsubsection.3.2.6}{Conservative Forces}{subsection.3.2}% 54
+\BOOKMARK [3][-]{subsubsection.3.2.7}{Work Done by Conservative Forces}{subsection.3.2}% 55
+\BOOKMARK [3][-]{subsubsection.3.2.8}{Newton's Law of Universal Gravitation}{subsection.3.2}% 56
+\BOOKMARK [3][-]{subsubsection.3.2.9}{Gravitational Potential Energy}{subsection.3.2}% 57
+\BOOKMARK [3][-]{subsubsection.3.2.10}{Elastic Potential Energy}{subsection.3.2}% 58
+\BOOKMARK [3][-]{subsubsection.3.2.11}{Force from Potential Energy}{subsection.3.2}% 59
+\BOOKMARK [3][-]{subsubsection.3.2.12}{Gravitational Force from the Gravitational Potential Energy}{subsection.3.2}% 60
+\BOOKMARK [2][-]{subsection.3.3}{Conservation of Energy}{section.3}% 61
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Conservation of Mechanical Energy}{subsection.3.3}% 62
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Non-Conservative Forces}{subsection.3.3}% 63
+\BOOKMARK [2][-]{subsection.3.4}{Power}{section.3}% 64
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Definition}{subsection.3.4}% 65
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Instantaneous Power}{subsection.3.4}% 66
+\BOOKMARK [1][-]{section.4}{Momentum And Impulse}{}% 67
+\BOOKMARK [2][-]{subsection.4.1}{Definition of Momentum}{section.4}% 68
+\BOOKMARK [2][-]{subsection.4.2}{Impulse}{section.4}% 69
+\BOOKMARK [2][-]{subsection.4.3}{Relationship between Force and p}{section.4}% 70
+\BOOKMARK [2][-]{subsection.4.4}{Impulse-Momentum Theorem}{section.4}% 71
