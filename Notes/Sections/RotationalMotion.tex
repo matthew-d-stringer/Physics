@@ -1,0 +1,82 @@
+\documentclass[../Notes.tex]{subfiles}
+
+% !TEX root = ../Notes.tex
+
+\begin{document}
+    \section{Rotational Motion}
+
+    \subsection{Rotational Kinematics}
+
+    \subsubsection{Linear vs Angular Velocity}
+    \begin{itemize}
+        \item Linear speed given by $v$
+        \item Angular speed given by $\omega$
+        \item Direction is perpendicular to the path based on right hand rule
+    \end{itemize}
+
+    \subsubsection{Converting Linear to angular velocity}
+    \begin{equation*}
+        v = r \frac{d\theta}{dt} = r \omega
+    \end{equation*}
+    \begin{equation*}
+        \omega = \frac{v}{r}
+    \end{equation*}
+
+    \subsubsection{Linear vs Angular acceleration}
+    \begin{itemize}
+        \item Linear acceleration given by $a$
+        \item Angular acceleration given by $\alpha$
+    \end{itemize}
+
+    \subsubsection{Centripetal Acceleration}
+    \begin{equation*}
+        a = -\frac{v^2}{r}
+    \end{equation*}
+
+    \subsection{Moment of Inertia}
+    \subsubsection{Types of Inertia}
+    \begin{itemize}
+        \item Inertial mass (linear inertia) is an object's ability to resist 
+            linear acceleration.
+        \item Moment of Inertia (rotational inertia) is an object's ability to resist 
+            rotational acceleration.
+    \end{itemize}
+
+    \subsubsection{Kinetic Energy of Rotating Disk}
+    \begin{equation*}
+        K_{TOT} = \frac{\omega^2}{2} \int_0^r r^2 dr = \frac12 J \omega^2
+    \end{equation*}
+
+    \subsubsection{Common Moments of Inertia}
+    \begin{itemize}
+        \item Disk: $J = \frac12 mr^2$
+        \item Hoop: $J = ml^2$ 
+        \item Sphere: $J = \frac25 m r^2$
+        \item Hollow Sphere: $J = \frac23 m r^2$
+        \item Rod(around center point): $J = \frac1{12} m l^2$
+        \item Rod(around end point): $J = \frac13 m l^2$
+    \end{itemize}
+
+    \subsection{Torque}
+    \begin{align*}
+        \tau = r \times F \\
+        |\tau| = rF\sin \theta
+    \end{align*}
+    \subsubsection{Direction of Torque Vector}
+    \begin{itemize}
+        \item Torque vector is perpendicular to both force and position vector
+        \item Use the right hand rule
+        \item Positive Torques cause counter-clockwise rotations 
+    \end{itemize}
+    \subsubsection{Translational vs Rotational}
+    \begin{align*}
+        F = m a \quad
+        \tau = J \alpha
+    \end{align*}
+
+    \subsection{Angular Momentum ($L$)}
+    \begin{equation*}
+        L_Q = r \times p = (r \times v)m
+    \end{equation*}
+    where $r$ is a vector from point $Q$ to the force
+\end{document}
