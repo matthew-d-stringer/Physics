@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.20)  10 FEB 2019 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.20)  10 FEB 2019 17:01
 entering extended mode
 **"f:/My Documents/Matthew/2018-2019/Physics/Notes/Notes.tex"
 ("f:/My Documents/Matthew/2018-2019/Physics/Notes/Notes.tex"
@@ -839,89 +839,57 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 20.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Notes.toc [
-2])
+{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Notes.toc)
 \tf@toc=\write5
 \openout5 = `Notes.toc'.
 
- [3]
-(Sections/Kinematics.tex
+ [2]
+(Sections/RotationalMotion.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
- [4] [5] [6]) (Sections/Dynamics.tex [7] [8] [9])
-(Sections/WorkEnergyPower.tex [10] [11]
+ [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 104.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 104.
+(hyperref)                removing `math shift' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 104.
+(hyperref)                removing `math shift' on input line 83.
 
-[12] [13] [14]) (Sections/MomentumAndImpulse.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Delta' on input line 23.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 23.
-
-[15]) (Sections/RotationalMotion.tex [16] [17]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 77.
-
-) [18]
+[4]) [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (Notes.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 21986F3C8F7A7594F5D81000384BCD9F;6665.
+(rerunfilecheck)             Checksum: 0DC92146E7E20E55BB7FA03FC063C1A1;1389.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
- 18278 strings out of 492973
- 344592 string characters out of 3135935
- 418258 words of memory out of 3000000
- 21672 multiletter control sequences out of 15000+200000
- 16097 words of font info for 64 fonts, out of 3000000 for 9000
+ 18085 strings out of 492973
+ 341270 string characters out of 3135935
+ 414258 words of memory out of 3000000
+ 21593 multiletter control sequences out of 15000+200000
+ 13393 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,56p,468b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,56p,468b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Notes.pdf (18 pages, 243775 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb>
+Output written on Notes.pdf (5 pages, 110471 bytes).
 PDF statistics:
- 606 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 693 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

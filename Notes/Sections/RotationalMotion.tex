@@ -49,12 +49,12 @@
 
     \subsubsection{Common Moments of Inertia}
     \begin{itemize}
-        \item Disk: $J = \frac12 mr^2$
-        \item Hoop: $J = ml^2$ 
-        \item Sphere: $J = \frac25 m r^2$
-        \item Hollow Sphere: $J = \frac23 m r^2$
-        \item Rod(around center point): $J = \frac1{12} m l^2$
-        \item Rod(around end point): $J = \frac13 m l^2$
+        \item Disk: $I = \frac12 mr^2$
+        \item Hoop: $I = ml^2$ 
+        \item Sphere: $I = \frac25 m r^2$
+        \item Hollow Sphere: $I = \frac23 m r^2$
+        \item Rod(around center point): $I = \frac1{12} m l^2$
+        \item Rod(around end point): $I = \frac13 m l^2$
     \end{itemize}
 
     \subsection{Torque}
@@ -71,12 +71,30 @@
     \subsubsection{Translational vs Rotational}
     \begin{align*}
         F = m a \quad
-        \tau = J \alpha
+        \tau = I \alpha
     \end{align*}
+
+    \subsection{Rotational Dynamics}
+    \subsubsection{Kinetic Energy}
+    \begin{equation*}
+        K_{rotational} = \frac12 I w^2
+    \end{equation*}
 
     \subsection{Angular Momentum ($L$)}
     \begin{equation*}
         L_Q = r \times p = (r \times v)m
     \end{equation*}
-    where $r$ is a vector from point $Q$ to the force
+    where $r$ is a vector from point $Q$ to the force. \newline
+    \textbf{Spin Angular Momentum} is the angular momentum around the center of mass.
+    This type of angular momentum is not based off of a reference point.
+
+    \section{Oscillations}
+    \subsection{General Form of Simple Harmonic Motion}
+    \begin{equation*}
+        \ddot x + \omega^2 x = 0
+    \end{equation*}
+    which evaluates to 
+    \begin{equation*}
+        x(t) = A \cos(\omega t + \phi)
+    \end{equation*}
 \end{document}
