@@ -1,0 +1,2 @@
+﻿"rodThick"= 0.1in
+"thick"= 3 / 16
