@@ -1,3 +1,3 @@
-﻿"rodThick"= 0.1in
+﻿"rodThick"= 3/16in
 "thick"= 3/16in
 "clear"= 0.01in
