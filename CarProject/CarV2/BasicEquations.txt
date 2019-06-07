@@ -1,4 +1,2 @@
 ﻿"rodThick"= 0.085in
-"thick"= 0.122in
-"wheelDist"= 2in
 "clear"= 0.003in
