@@ -1,0 +1,2 @@
+﻿"rodThick"= 0.085in
+"clear"= 0.003in
